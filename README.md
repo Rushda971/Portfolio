@@ -1,6 +1,20 @@
-Rushda Khan — Portfolio (V13.11)
+# Rushda Khan — Portfolio
 
-Open index.html in a browser. Keep the whole folder together. Direct file opening uses static fallbacks for module-only motion and 3D features; serve over HTTP (for example, the publish host or python3 -m http.server) for the full effects.
+A responsive portfolio showcasing product work, software engineering, leadership, and creative interests.
 
-- Phone (under 760px): Jackers chapter cards 01 to 05 display contextual photography.
-- Tablet (760px and wider) and laptop: the earlier design, with its waves, 3D knot and coin, and scroll motion.
+## Live site
+
+[View the portfolio on GitHub Pages](https://rushda971.github.io/Portfolio/)
+
+## Layout by screen size
+
+- **Mobile (under 760px):** compact navigation, stacked sections, and photo-led project cards.
+- **Tablet and laptop (760px and wider):** editorial layout with a chapter rail, silk-wave backgrounds, an animated Jackers coin, a metallic knot, and scroll effects.
+
+## Project files
+
+- `index.html` — mobile layout and responsive entry point.
+- `laptop.html` — tablet and laptop layout.
+- `assets/` — photos, graphics, animation libraries, and the downloadable resume.
+
+Open `index.html` to view the portfolio.
