@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Markets and trading study</title>
+  <desc id="desc">A stylized rising candlestick chart in warm gold against a dark burgundy background.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#311714"/>
+      <stop offset="1" stop-color="#6b282b"/>
+    </linearGradient>
+    <linearGradient id="gold" x2="0" y2="1">
+      <stop stop-color="#f0d1ad"/>
+      <stop offset="1" stop-color="#b77b58"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#d49a73" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#d49a73" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="820" cy="380" r="430" fill="url(#glow)"/>
+  <g fill="none" stroke="#e8c8aa" stroke-opacity=".13" stroke-width="2">
+    <path d="M120 190H1080M120 330H1080M120 470H1080M120 610H1080M120 750H1080"/>
+    <path d="M180 140V780M360 140V780M540 140V780M720 140V780M900 140V780M1080 140V780"/>
+  </g>
+  <g stroke="url(#gold)" stroke-width="8" stroke-linecap="round">
+    <path d="M210 535V680M330 455V620M450 490V645M570 365V550M690 400V585M810 270V470M930 315V515M1050 190V405"/>
+  </g>
+  <g fill="url(#gold)" stroke="#f3ddc4" stroke-opacity=".65" stroke-width="2">
+    <rect x="182" y="565" width="56" height="75" rx="5"/>
+    <rect x="302" y="495" width="56" height="80" rx="5"/>
+    <rect x="422" y="535" width="56" height="75" rx="5"/>
+    <rect x="542" y="415" width="56" height="90" rx="5"/>
+    <rect x="662" y="455" width="56" height="85" rx="5"/>
+    <rect x="782" y="315" width="56" height="100" rx="5"/>
+    <rect x="902" y="365" width="56" height="95" rx="5"/>
+    <rect x="1022" y="230" width="56" height="110" rx="5"/>
+  </g>
+  <path d="m175 600 150-82 120 45 150-128 120 42 150-140 120 46 125-145" fill="none" stroke="#f4e7d9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".62"/>
+  <path d="M1010 232h80v80" fill="none" stroke="#f4e7d9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+  <text x="120" y="105" fill="#e8c8aa" font-family="Georgia,serif" font-size="24" letter-spacing="8" opacity=".8">MARKET STUDY</text>
+</svg>
